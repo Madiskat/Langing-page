@@ -1,6 +1,7 @@
 #footer
 #membership plans card heights not equal
 
+# LANDING PAGE repo
 
 # icons not in center in offers
 
