@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>GymFit 30-days free trial</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" />
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+  <nav class="navbar sticky-top navbar-dark bg-dark" id="hideNAV">
+    <a class="d-none d-lg-block navbar-brand" href="#">
+      <img src="images/Logo_GymFit2.svg" width="140px" height="100%" class="d-inline-block align-top"
+        alt="GymFit logo" />
+    </a>
+
+    <ul class="navbar-nav" style="text-align: center;">
+      <li class="nav-item align-baseline">
+        <span class="navbar-text " style="color:azure">
+          30-days FREE trial offer ends in:
+        </span>
+        <br class="mobile-break" />
+        <a id="countDown"></a>
+        <br class="mobile-break" />
+        <button type="button" class="btn btn-primary" id="navCTA">
+          JOIN NOW
+        </button>
+      </li>
+    </ul>
+
+    <form class="form-inline  d-none d-lg-block">
+      <a href="#" class="fa fa-facebook" id="faceID" aria-label="Facebook link"></a>
+      <a href="#" class="fa fa-instagram" id="instaID" aria-label="Instagram link"></a>
+    </form>
+  </nav>
+
+  <div class="view" style="background-image: url(../images/taust6.jpg); background-position: center;  background-size: cover;
+  background-repeat: no-repeat;  padding-top: 60px;">
+    <div class="container-fluid" style="height:100%;">
+      <div class="row">
+        <div class="col-lg-6" id="offerValue"
+          style="padding-bottom: 2em; padding-top: 1em; background: rgba(29, 58, 88, 0.90); margin-bottom: 1.5em">
+          <div class="d-lg-none" style="text-align: center"><img src="images/Logo_GymFit2.svg" alt="GymFit logo"
+              height="90px">
+          </div>
+          <h1 class=" vertical" style="margin-bottom: 0.1em; text-align:center; font-size: 3em; font-weight: bold; ">
+            30-DAYS FREE TRIAL <br />
+            <h3 style="text-align:center;" class="d-none d-sm-block">
+              Become a member of GymFit and do a workout at any time and everywhere
+            </h3>
+          </h1>
+          <h2 style="margin-top: 1.8em; color:azure; text-align:center">
+            Enter your information to join
+          </h2>
+          <form>
+            <div class="row">
+              <div class="form-group col-md-6">
+                <div class="form-group">
+                  <input type="Text" class="form-control" placeholder="Enter name" aria-label="Enter name" />
+                </div>
+              </div>
+              <div class="form-group col-md-6">
+                <div class="form-group">
+                  <input type="Text" class="form-control" placeholder="Enter phone number"
+                    aria-label="Enter phone number" />
+                </div>
+              </div>
+            </div>
+            <div class="form-group" style="padding-bottom: 1em">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-label="Enter email"
+                placeholder="Enter email" />
+            </div>
+            <button type="submit" class="btn btn-primary" id="pohiCTA">
+              JOIN NOW
+            </button>
+          </form>
+        </div>
+        <div class="col-md-6"></div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Section: Testimonials v.1 -->
+  <section class="text-center my-5 p-1">
+    <!-- Section heading -->
+    <h2 style="color: azure; background-color: #1D3A58">What GymFit offers to you</h2>
+
+    <!-- Grid row -->
+    <div class="row" style="margin-left: 1em; margin-right: 1em;">
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+        <!--Card-->
+        <div class="card testimonial-card">
+          <!--Background color-->
+          <div class="card-up info-color"></div>
+          <!--Avatar-->
+          <div class="avatar mx-auto white">
+            <img src="images/euro.svg" alt="piggy-bank" height="160px">
+          </div>
+          <div class="card-body">
+            <!--Name-->
+            <h4 class="font-weight-bold mb-4" style="background-color: #2d5886; color:azure">
+              Best price
+            </h4>
+            <!--Quotation-->
+            <p class="dark-grey-text mt-4">
+              30-days free trial for new members. After that memberships from €14.99/month
+            </p>
+          </div>
+        </div>
+        <!--Card-->
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+        <!--Card-->
+        <div class="card testimonial-card">
+          <!--Background color-->
+          <div class="card-up info-color"></div>
+          <!--Avatar-->
+          <div class="avatar mx-auto white">
+            <img src="images/everywhere.svg" alt="map distance two points" height="160px">
+          </div>
+          <div class="card-body">
+            <!--Name-->
+            <h4 class="font-weight-bold mb-4" style="background-color: #2d5886; color:azure">
+              We are everywhere
+            </h4>
+            <!--Quotation-->
+            <p class="dark-grey-text mt-4">
+              Over 20 gyms nationwide in great locations
+            </p>
+          </div>
+        </div>
+        <!--Card-->
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+        <!--Card-->
+        <div class="card testimonial-card">
+          <!--Background color-->
+          <div class="card-up info-color"></div>
+          <!--Avatar-->
+          <div class="avatar mx-auto white">
+            <img src="images/24hours.svg" alt="open 24/7" height="160px">
+          </div>
+          <div class="card-body">
+            <!--Name-->
+            <h4 class="font-weight-bold mb-4" style="background-color: #2d5886; color:azure">
+              Always waiting for you
+            </h4>
+            <!--Quotation-->
+            <p class="dark-grey-text mt-4">
+              Our gyms are open 24/7 in all locations
+            </p>
+          </div>
+        </div>
+        <!--Card-->
+      </div>
+      <!--Grid column-->
+    </div>
+    <!-- Grid row -->
+  </section>
+
+  <hr>
+
+  <section class="text-center my-5 p-1">
+    <h2 style="margin-bottom:20px; color: azure; background-color: #1D3A58">Find the nearest GymFit for you</h2>
+  </section>
+  <div class="container-fluid parallaxMap" id="kaartID">
+    <div class="row">
+      <div class="col-md-12" id="kaartID2">
+        <div class="form-group has-search">
+          <span class="fa fa-search form-control-feedback"></span>
+          <input type="text" class="form-control" placeholder="Enter city or street name"
+            aria-label="Enter city or street name" />
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.2531389455903!2d-89.23024619999998!3d48.4516724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d5923dbfe697737%3A0xc9d925c9bc9573fa!2s116+Bruce+St%2C+Thunder+Bay%2C+ON+P7A+5W6!5e0!3m2!1sen!2sca!4v1424272264157"
+              width="100%" height="380px" frameborder="0" style="border:0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Section: Testimonials v.1 -->
+  <section class="text-center my-5 p-1">
+    <!-- Section heading -->
+    <h2 style="color: azure; background-color: #1D3A58">What our members say about GymFit</h2>
+
+    <!-- Grid row -->
+    <div class="row" style="margin-left: 1em; margin-right: 1em;">
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+        <!--Card-->
+        <div class="card testimonial-card">
+          <!--Background color-->
+          <div class="card-up info-color"></div>
+          <!--Avatar-->
+          <div class="avatar mx-auto white">
+            <img src="images/ott_kiivikas.jpeg" class="rounded-circle img-fluid"
+              alt="GymFit member Ott Kiivikas portrait" />
+          </div>
+          <div class="card-body">
+            <!--Name-->
+            <h4 class="font-weight-bold mb-4" style="background-color: #2d5886; color:azure">
+              Ott Kiivikas
+            </h4>
+            <!--Quotation-->
+            <p class="dark-grey-text mt-4">
+              <i class="fa fa-quote-left"></i>The facilities at GymFit stood out to me the most. They are well
+              maintained and have high quality equipment.
+            </p>
+          </div>
+        </div>
+        <!--Card-->
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+        <!--Card-->
+        <div class="card testimonial-card">
+          <!--Background color-->
+          <div class="card-up blue-gradient"></div>
+          <!--Avatar-->
+          <div class="avatar mx-auto white">
+            <img src="images/anna_aston.jpg" class="rounded-circle img-fluid" alt="GymFit member Anna Aston portrait" />
+          </div>
+          <div class="card-body">
+            <!--Name-->
+            <h4 class="font-weight-bold mb-4" style="background-color: #2d5886; color:azure">
+              Anna Aston
+            </h4>
+            <!--Quotation-->
+            <p class="dark-grey-text mt-4">
+              <i class="fa fa-quote-left"></i>Highly recommended for all the fitness lovers irrespective of what level
+              you are in. I am definitely coming back!
+            </p>
+          </div>
+        </div>
+        <!--Card-->
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 d-none d-sm-block">
+        <!--Card-->
+        <div class="card testimonial-card">
+          <!--Background color-->
+          <div class="card-up indigo"></div>
+          <!--Avatar-->
+          <div class="avatar mx-auto white">
+            <img src="images/erik_orgu.jpg" class="rounded-circle img-fluid" alt="GymFit member Erik Orgu portrait" />
+          </div>
+          <div class="card-body">
+            <!--Name-->
+            <h4 class="font-weight-bold mb-4" style="background-color: #2d5886; color:azure">
+              Erik Orgu
+            </h4>
+            <!--Quotation-->
+            <p class="dark-grey-text mt-4">
+              <i class="fa fa-quote-left"></i>The atmosphere at GymFit is amazing, the people are even better. All in
+              all, it is a great place to work out.
+            </p>
+          </div>
+        </div>
+        <!--Card-->
+      </div>
+      <!--Grid column-->
+    </div>
+    <!-- Grid row -->
+  </section>
+  <!-- Section: Testimonials v.1 -->
+
+  <hr />
+
+  <div class="parallax d-none d-sm-block"></div>
+
+  <hr />
+
+  <section class="text-center my-5 p-1">
+    <h2 style="margin-bottom:10px; color: azure; background-color: #1D3A58">Choose your own membership plan</h2>
+  </section>
+
+  <div id="generic_price_table">
+    <section>
+      <div class="container">
+
+        <!--BLOCK ROW START-->
+        <div class="row">
+          <div class="col-md-4">
+
+            <!--PRICE CONTENT START-->
+            <div class="generic_content clearfix">
+
+              <!--HEAD PRICE DETAIL START-->
+              <div class="generic_head_price clearfix">
+
+                <!--HEAD CONTENT START-->
+                <div class="generic_head_content clearfix">
+
+                  <!--HEAD START-->
+                  <div class="head_bg"></div>
+                  <div class="head">
+                    <span>FREE TRIAL</span>
+                  </div>
+                  <!--//HEAD END-->
+
+                </div>
+                <!--//HEAD CONTENT END-->
+
+                <!--PRICE START-->
+                <div class="generic_price_tag clearfix">
+                  <span class="price">
+                    <span class="sign">€</span>
+                    <span class="currency">0</span>
+                    <span class="cent">.00</span>
+                    <span class="month">/MON</span>
+                  </span>
+                </div>
+                <!--//PRICE END-->
+
+              </div>
+              <!--//HEAD PRICE DETAIL END-->
+
+              <!--FEATURE LIST START-->
+              <div class="generic_feature_list">
+                <ul>
+                  <li><span>30-days free trial for new members</span></li>
+                  <li><span>Access to 20+ gyms</span></li>
+                  <li><span>Open 24/7</span></li>
+
+                </ul>
+              </div>
+              <!--//FEATURE LIST END-->
+
+              <!--BUTTON START-->
+              <div class="generic_price_btn clearfix">
+                <a class="" href="">JOIN NOW</a>
+              </div>
+              <!--//BUTTON END-->
+
+            </div>
+            <!--//PRICE CONTENT END-->
+
+          </div>
+
+          <div class="col-md-4">
+
+            <!--PRICE CONTENT START-->
+            <div class="generic_content active clearfix">
+
+              <!--HEAD PRICE DETAIL START-->
+              <div class="generic_head_price clearfix">
+
+                <!--HEAD CONTENT START-->
+                <div class="generic_head_content clearfix">
+
+                  <!--HEAD START-->
+                  <div class="head_bg"></div>
+                  <div class="head">
+                    <span>Standard</span>
+                  </div>
+                  <!--//HEAD END-->
+
+                </div>
+                <!--//HEAD CONTENT END-->
+
+                <!--PRICE START-->
+                <div class="generic_price_tag clearfix">
+                  <span class="price">
+                    <span class="sign">€</span>
+                    <span class="currency">14</span>
+                    <span class="cent">.99</span>
+                    <span class="month">/MON</span>
+                  </span>
+                </div>
+                <!--//PRICE END-->
+
+              </div>
+              <!--//HEAD PRICE DETAIL END-->
+
+              <!--FEATURE LIST START-->
+              <div class="generic_feature_list">
+                <ul>
+                  <li><span>Includes 30 credits to book group classes</span></li>
+                  <li><span>Access to 20+ gyms</span></li>
+                  <li><span>Open 24/7</span></li>
+                </ul>
+              </div>
+              <!--//FEATURE LIST END-->
+
+              <!--BUTTON START-->
+              <div class="generic_price_btn clearfix">
+                <a class="" href="">JOIN NOW</a>
+              </div>
+              <!--//BUTTON END-->
+
+            </div>
+            <!--//PRICE CONTENT END-->
+
+          </div>
+          <div class="col-md-4">
+
+            <!--PRICE CONTENT START-->
+            <div class="generic_content clearfix">
+
+              <!--HEAD PRICE DETAIL START-->
+              <div class="generic_head_price clearfix">
+
+                <!--HEAD CONTENT START-->
+                <div class="generic_head_content clearfix">
+
+                  <!--HEAD START-->
+                  <div class="head_bg"></div>
+                  <div class="head">
+                    <span>Premium</span>
+                  </div>
+                  <!--//HEAD END-->
+
+                </div>
+                <!--//HEAD CONTENT END-->
+
+                <!--PRICE START-->
+                <div class="generic_price_tag clearfix">
+                  <span class="price">
+                    <span class="sign">€</span>
+                    <span class="currency">49</span>
+                    <span class="cent">.99</span>
+                    <span class="month">/MON</span>
+                  </span>
+                </div>
+                <!--//PRICE END-->
+
+              </div>
+              <!--//HEAD PRICE DETAIL END-->
+
+              <!--FEATURE LIST START-->
+              <div class="generic_feature_list">
+                <ul>
+                  <li><span>Includes 30 credits to book swimming classes</span></li>
+                  <li><span>Includes unlimited credit to book group classes</span></li>
+                  <li><span>Access to 20+ gyms</span></li>
+                  <li><span>Open 24/7</span></li>
+                </ul>
+              </div>
+              <!--//FEATURE LIST END-->
+
+              <!--BUTTON START-->
+              <div class="generic_price_btn clearfix">
+                <a class="" href="">JOIN NOW</a>
+              </div>
+              <!--//BUTTON END-->
+
+            </div>
+            <!--//PRICE CONTENT END-->
+
+          </div>
+        </div>
+        <!--//BLOCK ROW END-->
+
+      </div>
+    </section>
+  </div>
+  <!--
+  <div class="container-fluid" style=" height:190px;background-color:#1D3A58">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-6" style="text-align:center; padding-top: 0.5em; padding-bottom: 0.2em; color:azure">
+        <h3>Time is faster and stronger than you</h3>
+        <ul class="navbar-nav" style="text-align: center">
+          <li class="nav-item align-baseline">
+            <span class="navbar-text " style="color:azure">
+              30-days FREE trial offer ends in:
+            </span>
+            <br class="mobile-break" />
+            <a id="countDown2"></a>
+            <br class="mobile-break" />
+          </li>
+        </ul>
+      </div>
+      <div class="col"></div>
+    </div>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-6" style="text-align:center">
+        <button type="button" class="btn btn-primary" style="width:100%; font-size: 1.2em;">
+          JOIN NOW
+        </button>
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+//-->
+  <div class="container-fluid" style="height:150px"></div>
+  <!-- vahe enne footerit -->
+
+  <footer style="color:white">
+    <div class="container-fluid" style=" background-color:#1D3A58">
+      <div class="row" style="margin-left: 1em; margin-right: 1em;">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 mb-lg-0 mb-4">
+          <a class="navbar-brand" href="#">
+            <img src="images/Logo_GymFit2.svg" id="bottom_logo" width="140px" height="100%" style="padding-left: 0.3em"
+              class="d-inline-block align-top" alt="GymFit logo" />
+          </a>
+        </div>
+
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 mb-lg-0 mb-4" style="text-align: center">
+          <h6>Footerisse </h6>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 mb-lg-0 mb-4" style="text-align: center">
+          <form class="form-inline">
+            <a href="#" class="fa fa-facebook" id="faceID2" aria-label="Facebook link"></a>
+            <a href="#" class="fa fa-instagram" id="instaID2" aria-label="Instagram link"></a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("June 22, 2019 15:37:25").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Output the result in an element with id="demo"
+      document.getElementById("countDown").innerHTML =
+        days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+      // If the count down is over, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countDown").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+
+    // Set the date we're counting down to TEINE
+    var countDownDate = new Date("June 22, 2019 15:37:25").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Output the result in an element with id="demo"
+      document.getElementById("countDown2").innerHTML =
+        days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+      // If the count down is over, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countDown2").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+    //fade teema facebook
+    $(window).scroll(function () {
+      var threshold = 500; // number of pixels before bottom of page that you want to start fading
+      var op =
+        ($(document).height() - $(window).height() - $(window).scrollTop()) /
+        threshold;
+      if (op <= 0) {
+        $("#faceID").hide();
+      } else {
+        $("#faceID").show();
+      }
+      $("#faceID").css("opacity", op);
+    });
+
+    //fade teema instagramm
+    $(window).scroll(function () {
+      var threshold = 600; // number of pixels before bottom of page that you want to start fading
+      var op =
+        ($(document).height() - $(window).height() - $(window).scrollTop()) /
+        threshold;
+      if (op <= 0) {
+        $("#instaID").hide();
+      } else {
+        $("#instaID").show();
+      }
+      $("#instaID").css("opacity", op);
+    });
+
+    //fade teema navBar
+    $(window).scroll(function () {
+      var threshold = 500; // number of pixels before bottom of page that you want to start fading
+      var op =
+        ($(document).height() - $(window).height() - $(window).scrollTop()) /
+        threshold;
+      if (op <= 0) {
+        $("#hideNAV").hide();
+      } else {
+        $("#hideNAV").show();
+      }
+      $("#hideNAV").css("opacity", op);
+    });
+
+  </script>
+</body>
+
+</html>
